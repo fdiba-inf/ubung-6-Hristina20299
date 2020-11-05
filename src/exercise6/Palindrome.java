@@ -17,7 +17,7 @@ public class Palindrome {
         int[] array = new int[count];
         for (int i = 0; i < array.length; i++) {
           array[i] = a % 10;
-          a = a % 10;
+          a = a / 10;
         }
         int c = 0;
         for (int j = 0; j < array.length; j++) {
